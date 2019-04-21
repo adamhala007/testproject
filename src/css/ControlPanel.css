@@ -1,0 +1,204 @@
+.controlPanel-content{
+    padding: 50px;
+}
+
+.controlPanel-upperControls{
+    margin-left: auto;
+    margin-right: auto;
+
+
+    width: 420px;
+    height: 420px;
+    /*background-color: white;*/
+
+}
+
+.controlPanel-lowerControls{
+    margin-left: auto;
+    margin-right: auto;
+
+
+    width: 420px;
+
+    /*background-color: white;*/
+
+}
+
+
+.flex-grid {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.col {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    /* margin: 10px; */
+
+}
+
+#controlPanel-save{
+    background-image: url("../images/controlButtons/save.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-save:hover{
+    background-image: url("../images/controlButtons/save_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-open{
+    background-image: url("../images/controlButtons/open.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-open:hover{
+    background-image: url("../images/controlButtons/open_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-sound{
+    background-image: url("../images/controlButtons/sound.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-sound:hover{
+    background-image: url("../images/controlButtons/sound_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-delete{
+    background-image: url("../images/controlButtons/delete.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+
+}
+
+#controlPanel-delete:hover{
+    background-image: url("../images/controlButtons/delete_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-up{
+    background-image: url("../images/controlButtons/up.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-up:hover{
+    background-image: url("../images/controlButtons/up_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-light{
+    background-image: url("../images/controlButtons/light.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-light:hover{
+    background-image: url("../images/controlButtons/light_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-left{
+    background-image: url("../images/controlButtons/left.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-left:hover{
+    background-image: url("../images/controlButtons/left_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-go{
+    background-image: url("../images/controlButtons/go.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
+}
+
+#controlPanel-go:hover{
+    background-image: url("../images/controlButtons/go_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-stop{
+    background-image: url("../images/controlButtons/stop.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
+}
+
+#controlPanel-stop:hover{
+    background-image: url("../images/controlButtons/stop_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-right{
+    background-image: url("../images/controlButtons/right.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-right:hover{
+    background-image: url("../images/controlButtons/right_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-down{
+    background-image: url("../images/controlButtons/down.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-down:hover{
+    background-image: url("../images/controlButtons/down_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-blank{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+.animate{
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.0);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.0);
+        transform: translatey(-20px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.0);
+        transform: translatey(0px);
+    }
+}

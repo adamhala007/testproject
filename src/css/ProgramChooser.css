@@ -1,0 +1,29 @@
+#modal-programs{
+    border-radius: 25px;
+    background: #e64a19;
+}
+
+
+#programs-list{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    left: 0;
+    padding: 0;
+    margin: 0px;
+}
+
+#programs-list li{
+    width: 90%;
+    color:#fbe9e7;
+    background: #ff9e80;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+#programs-list li:hover{
+    color:#ff9e80;
+    background: #fbe9e7;
+}

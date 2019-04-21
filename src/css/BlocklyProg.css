@@ -1,0 +1,102 @@
+.Home {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffccbc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.content{
+    background-color: #FFB79A;
+    width: auto;
+    height: auto;
+    padding: 40px;
+
+}
+
+.controlPanel{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+}
+
+.controls2{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    width: auto;
+    height: auto;
+    /*background-color: green;*/
+    padding: 20px;
+    padding-top: 60px;
+    float: left;
+
+}
+
+.simulator2{
+    width: 650px;
+    height: auto;
+    /*background-color: blue;*/
+    float: left;
+    margin-top: -20px;
+    display: none;
+}
+
+.blocklyDrawer{
+    width: 100%;
+    height: auto;
+    /*background-color: red;*/
+    clear: both;
+
+}
+
+#controlPanel-save{
+    background-image: url("../images/controlButtons/save.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-save:hover{
+    background-image: url("../images/controlButtons/save_hover.png");
+    cursor: pointer;
+}
+
+#controlPanel-open{
+    background-image: url("../images/controlButtons/open.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+
+#controlPanel-open:hover{
+    background-image: url("../images/controlButtons/open_hover.png");
+    cursor: pointer;
+}
+
+#bSimulate{
+    background-image: url("../images/controlButtons/go.png");
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
+}
+
+#bSimulate:hover{
+    background-image: url("../images/controlButtons/go_hover.png");
+    cursor: pointer;
+}
+
+footer{
+    background: #FFF6F3;
+    border: 1px solid #FFB79A;
+}
+
+footer p {
+    color: #FF8858;
+}

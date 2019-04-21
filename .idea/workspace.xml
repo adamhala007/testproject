@@ -2,7 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef5d627-bf2d-4421-882c-e4fde9a6dcdd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Article.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/BlocklyProg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/CommandPanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/ControlPanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/EasyProg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/EntryForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/FirstPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/ProgramChooser.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/SimulatorPanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Statistics.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/lienka-d28a4-firebase-adminsdk-7my6l-53df53a4a8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/chiller.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/chiller.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/chiller.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ControlButtons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/blockly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/blockly2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/blocklyPuzzle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/blocklyPuzzleHover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/blockylyPuzzle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/blockylyPuzzle.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/delete_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/down_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/go.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/go_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/left_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/light_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/open_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/right_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/save_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/sound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/sound_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/stop_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/controlButtons/up_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/easyprog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/easyprog.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/easyprogHover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/eraser.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/connection.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kidsProgramming.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ladybird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ladybug_PNG3966.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/login2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/playground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/playground.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/playgroundHover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/signin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/trans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Blockly/Blockly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/BlocklyProg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/CommandPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/ControlPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/ControlPanelPlayground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/EasyProg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/EntryForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/FirstPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/PlayGround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/ProgramChooser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/ProgramList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/SimulatorPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Square.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Statistics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/registerServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sound/beep.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sound/beep.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,26 +125,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="html" value="2" />
+          <entry key="js" value="16" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="1" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="26" />
-          <entry key="txt" value="15" />
+          <entry key="js" value="4" />
+          <entry key="json" value="27" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="26" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="JSON" value="27" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -51,25 +159,117 @@
           <entry key="git.branch.create.new.nocheckout" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/js/CommandPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/js/ControlPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/ControlPanelPlayground.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/EasyProg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/EntryForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/FirstPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/Menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/PlayGround.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1989">
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/js/ProgramList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -77,6 +277,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -88,6 +289,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/js/ProgramList.js" />
       </list>
     </option>
   </component>
@@ -142,6 +344,12 @@
               <item name="testproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,6 +366,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Dolgok\Web\React\testproject" />
+      <recent name="G:\Dolgok\Web\React\testproject\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,7 +432,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555840408045</updated>
-      <workItem from="1555840409197" duration="1083000" />
+      <workItem from="1555840409197" duration="5408000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1555841136293</created>
@@ -227,22 +441,37 @@
       <option name="project" value="LOCAL" />
       <updated>1555841136293</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1555841584280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555841584280</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1555847388795</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555847388795</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1083000" />
+    <option name="totallyTimeSpent" value="5408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.5016129" side_tool="true" visible="true" weight="0.24973656" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -273,10 +502,143 @@
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/BlocklyProg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/CommandPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/ControlPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/ControlPanelPlayground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/EasyProg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/EntryForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/FirstPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/PlayGround.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1989">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/ProgramList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>

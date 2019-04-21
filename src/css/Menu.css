@@ -1,0 +1,25 @@
+.button{
+    background-color: #bf360c !important;
+}
+
+.logo {
+    background: url("../images/logo3.png") no-repeat;
+    background-size:contain;
+    margin-left: 20px;
+    width: 200px;
+    height: 41px;
+}
+
+.logout{
+    background: url("../images/icons/logout.png") no-repeat;
+    background-size:contain;
+    width: 24px;
+    height: 24px;
+}
+
+.connect{
+    background: url("../images/icons/connection.svg") no-repeat;
+    background-size:contain;
+    width: 24px;
+    height: 24px;
+}

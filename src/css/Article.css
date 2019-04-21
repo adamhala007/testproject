@@ -1,0 +1,23 @@
+#welcomeText{
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#welcomeText p{
+    color: #e64a19; /*bf360c*/
+    text-align: justify;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-family: "Agency FB"; /*"Agency FB"*/
+}
+
+#welcomeText h2{
+    color: #d84315; /*bf360c*/
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: -0.5em;
+    font-family: "Source Code Pro";
+
+}

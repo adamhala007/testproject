@@ -1,0 +1,128 @@
+
+
+.EntryForm{
+
+
+}
+
+#formHidden{
+    margin-left: auto;
+    margin-right: auto;
+    width: 524px;
+    height: 120px;
+    margin-top: 60px;
+    background-color: #ff9e80;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    border-radius: 5px;
+}
+
+#buttonsHidden{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 524px;
+    height: 120px;
+    margin-top: 80px;
+    background-color: #ff9e80;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.showForm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 300px;
+    margin-top: 80px;
+    border-radius: 25px;
+    background-color: #ff9e80;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.prihlasenie{
+    height: 350px;
+}
+
+.registracia{
+    height: 500px;
+}
+
+.showForm h1{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.showForm p{
+    display: block;
+
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: -10px;
+    font-size: 1.1em;
+}
+
+.showForm p span{
+    color: #dd2c00;
+    font-weight: bold;
+
+}
+
+.showForm p span:hover{
+    cursor: pointer;
+
+}
+
+.showForm label{
+    font-size: 1.3em;
+
+}
+
+.showForm .TextField{
+    display: block;
+
+    padding-left: 2px;
+    margin-left: 20px;
+    margin-right: auto;
+
+    font-size: 1.2em;
+}
+
+#close {
+    float:right;
+    display:inline-block;
+    padding:10px 10px;
+    background:#e64a19;
+    color: #fbe9e7;
+    border-radius: 5px 15px 5px 5px;
+    font-weight: bold;
+}
+
+#close:hover {
+    float:right;
+    display:inline-block;
+    padding:10px 10px;
+    background:#bf360c;
+    color:#fff;
+    border-radius: 5px 15px 5px 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#close:active{
+    outline: 0;
+    box-shadow:inset 1px 1px 1px 1px black;
+}
+

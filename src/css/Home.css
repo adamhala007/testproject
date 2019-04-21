@@ -1,0 +1,156 @@
+.Home {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffccbc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.content{
+    background-color: #FFB79A;
+    width: auto;
+    height: auto;
+    padding: 40px;
+
+}
+
+.page{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+
+
+}
+
+.playgroundImage{
+    background: url("../images/playground.png") no-repeat;
+    background-size:contain;
+    width: 256px;
+    height: 256px;
+    float: left;
+    border-radius: 30px;
+    border: 1px solid #000;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.easyProgrammingImage{
+    background: url("../images/easyprog.png") no-repeat;
+    background-size:contain;
+    width: 256px;
+    height: 256px;
+    float: left;
+    border-radius: 30px;
+    border: 1px solid #000;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.playgroundImage:hover{
+    cursor: pointer;
+    box-shadow: 0 0 50px 5px rgba(240, 110, 25, 0.5);
+    background: url("../images/playgroundHover.png") no-repeat;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.easyProgrammingImage:hover{
+    cursor: pointer;
+    box-shadow: 0 0 50px 5px rgba(240, 110, 25, 0.5);
+    background: url("../images/easyprogHover.png") no-repeat;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+
+.easyProgrammingText{
+    float: left;
+    margin-left: 50px;
+    width: 60%;
+}
+
+.easyProgrammingText h2{
+    /*color: #FF4900;*/
+    /*color: white;*/
+    /*text-shadow: 2px 2px 4px #000000;*/
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FF4900, 0 0 5px #FF5A19;
+    /*text-shadow: 2px 2px;*/
+    font-size: 1.7em;
+}
+
+.easyProgrammingText p{
+    color: #000;
+    font-size: 1.3em;
+    text-shadow: 0 0 3px #FF4900;
+    text-align: justify;
+}
+
+.blocklyImage{
+    background: url("../images/blocklyPuzzle.png") no-repeat;
+    background-size:contain;
+    width: 256px;
+    height: 256px;
+    float: left;
+    border-radius: 30px;
+    border: 1px solid #000;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    /*margin-left: 10px;*/
+}
+
+.blocklyImage:hover{
+    cursor: pointer;
+    box-shadow: 0 0 50px 5px rgba(240, 110, 25, 0.5);
+    background: url("../images/blocklyPuzzleHover.png") no-repeat;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.blocklyText{
+    float: left;
+    margin-left: 50px;
+    width: 60%;
+}
+
+.blocklyText h2{
+    /*color: #FF4900;*/
+    /*color: white;*/
+    /*text-shadow: 2px 2px 4px #000000;*/
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FF4900, 0 0 5px #FF5A19;
+    /*text-shadow: 2px 2px;*/
+    font-size: 1.7em;
+}
+
+.blocklyText p{
+    color: #000;
+    font-size: 1.3em;
+    text-shadow: 0 0 3px #FF4900;
+    text-align: justify;
+}
+
+footer{
+    background: #FFF6F3;
+    border: 1px solid #FFB79A;
+}
+
+footer p {
+    color: #FF8858;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
