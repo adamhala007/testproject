@@ -84,7 +84,7 @@ class Home extends Component {
                     time: '',
                     action: '',
                 },
-            ]
+            ],
         }
         this.columns = [
             {
@@ -92,21 +92,21 @@ class Home extends Component {
                 accessor: 'id' // String-based value accessors!
             },
             {
-            Header: 'Meno',
-            accessor: 'username' // String-based value accessors!
-        }, {
-            Header: 'Dátum',
-            accessor: 'date',
-            //Cell: props => <span className='number'>{props.value}</span> // Custom cell components!
-        }, {
-            //id: 'friendName', // Required because our accessor is not a string
-            Header: 'Čas',
-            accessor: 'time',
-            //accessor: d => d.friend.name // Custom value accessors!
-        }, {
-            Header: props => <span>Akcia</span>, // Custom header components!
-            accessor: 'action'
-        }],
+                Header: 'Meno',
+                accessor: 'username' // String-based value accessors!
+            }, {
+                Header: 'Dátum',
+                accessor: 'date',
+                //Cell: props => <span className='number'>{props.value}</span> // Custom cell components!
+            }, {
+                //id: 'friendName', // Required because our accessor is not a string
+                Header: 'Čas',
+                accessor: 'time',
+                //accessor: d => d.friend.name // Custom value accessors!
+            }, {
+                Header: props => <span>Akcia</span>, // Custom header components!
+                accessor: 'action'
+            }];
             this.id = React.createRef();
             this.adminRef = React.createRef();
 
